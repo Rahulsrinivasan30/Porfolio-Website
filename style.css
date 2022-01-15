@@ -2,6 +2,7 @@
   font-family: 'Oswald', sans-serif;
 color: whitesmoke;
   text-align: center;
+  padding-top: 30px;
 }
 
 body{
@@ -12,6 +13,10 @@ header{
   display: flex;
   justify-content: space-around;
   border: 1px solid white;
+  border-left-style: none;
+  border-right-style: none;
+
+  
 }
 header>span{
   color: white;
@@ -28,11 +33,12 @@ header>span{
   display: flex;
   justify-content: space-around;
   color: white;
+  border: 1px solid white;
   
-  display: flex;
   padding: 10px;
-  text-align: center;
+  
   inline-size: 30%;
+  align-items: flex-end;
 }
 
 #name:hover{
