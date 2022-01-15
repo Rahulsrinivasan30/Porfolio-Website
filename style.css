@@ -11,7 +11,7 @@ body{
 
 header{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   border: 1px solid white;
   border-left-style: none;
   border-right-style: none;
@@ -21,20 +21,30 @@ header{
 header>span{
   color: white;
   
-  
+  /* border: 1px solid white; */
   display: flex;
   padding: 10px;
   text-align: center;
   justify-content: space-around;
-  /* inline-size: 12%; */
+  inline-size: 25%;
+}
+#status{
+  color: yellow;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  inline-size: 50%;
+  border: 1px solid white;
+
 }
 
 #about{
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
+  flex-wrap: initial;
   color: white;
   border: 1px solid white;
-  inline-size: 30%;
+  inline-size: 25%;
   padding: 10px;
   
   /* inline-size: 30%; */
