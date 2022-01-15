@@ -1,0 +1,31 @@
+#heading1{
+  font-family: 'Oswald', sans-serif;
+color: whitesmoke;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+
+header>span{
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#about{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#name:hover{
+
+
+font-family: 'Luxurious Roman', cursive;
+}
