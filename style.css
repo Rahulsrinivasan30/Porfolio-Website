@@ -24,7 +24,11 @@ header>span{
 #about{
   display: flex;
   justify-content: space-around;
-  
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  padding: 10px;
+  text-align: center;
 }
 
 #name:hover{
