@@ -19,6 +19,7 @@ header>span{
   padding: 10px;
   text-align: center;
   justify-content: space-around;
+  inline-size: auto;
 }
 
 #about{
@@ -29,6 +30,7 @@ header>span{
   display: flex;
   padding: 10px;
   text-align: center;
+  inline-size: auto;
 }
 
 #name:hover{
