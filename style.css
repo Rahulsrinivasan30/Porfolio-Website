@@ -26,19 +26,19 @@ header>span{
   padding: 10px;
   text-align: center;
   justify-content: space-around;
-  inline-size: 20%;
+  /* inline-size: 12%; */
 }
 
 #about{
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   color: white;
   border: 1px solid white;
-  
+  inline-size: 30%;
   padding: 10px;
   
-  inline-size: 30%;
-  align-items: flex-end;
+  /* inline-size: 30%; */
+  
 }
 
 #name:hover{
