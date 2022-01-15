@@ -8,7 +8,10 @@ body{
   background-color: black;
 }
 
-
+header{
+  display: flex;
+  justify-content: space-around;
+}
 header>span{
   color: white;
   border: 1px solid white;
@@ -28,8 +31,4 @@ header>span{
 
 
 font-family: 'Luxurious Roman', cursive;
-}
-header{
-  display: flex;
-  justify-content: space-around;
 }
