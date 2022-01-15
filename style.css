@@ -11,26 +11,28 @@ body{
 header{
   display: flex;
   justify-content: space-around;
+  border: 1px solid white;
 }
 header>span{
   color: white;
-  border: 1px solid white;
+  
+  
   display: flex;
   padding: 10px;
   text-align: center;
   justify-content: space-around;
-  inline-size: auto;
+  inline-size: 20%;
 }
 
 #about{
   display: flex;
   justify-content: space-around;
   color: white;
-  border: 1px solid white;
+  
   display: flex;
   padding: 10px;
   text-align: center;
-  inline-size: auto;
+  inline-size: 30%;
 }
 
 #name:hover{
